@@ -1,7 +1,7 @@
 namespace PasswordGenerator
 {
     /// <summary>
-    ///     Holds all of the settings for the password generator
+    /// Holds all of the settings for the password generator
     /// </summary>
     public interface IPasswordSettings
     {

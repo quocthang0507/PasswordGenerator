@@ -7,7 +7,7 @@ using System.Text.RegularExpressions;
 namespace PasswordGenerator
 {
     /// <summary>
-    ///     Generates random passwords and validates that they meet the rules passed in
+    /// Generates random passwords and validates that they meet the rules passed in
     /// </summary>
     public class Password : IPassword
     {
@@ -200,7 +200,7 @@ namespace PasswordGenerator
         }
 
         /// <summary>
-        ///     When you give it a password and some _settings, it validates the password against the _settings.
+        ///  When you give it a password and some _settings, it validates the password against the _settings.
         /// </summary>
         /// <param name="settings">Password settings</param>
         /// <param name="password">Password to test</param>
@@ -233,7 +233,7 @@ namespace PasswordGenerator
         }
 
         /// <summary>
-        ///     Checks that the password is within the valid length range
+        /// Checks that the password is within the valid length range
         /// </summary>
         /// <param name="passwordLength">The length of the password</param>
         /// <param name="minLength">The minimum allowed length</param>
