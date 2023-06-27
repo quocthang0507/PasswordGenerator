@@ -108,7 +108,7 @@ namespace PasswordGenerator
         }
 
         /// <summary>
-        ///     Gets the next random password which meets the requirements
+        /// Gets the next random password which meets the requirements
         /// </summary>
         /// <returns>A password as a string</returns>
         public string Next()
@@ -149,8 +149,8 @@ namespace PasswordGenerator
         }
 
         /// <summary>
-        ///     Generates a random password based on the rules passed in the settings parameter
-        ///     This does not do any validation
+        /// Generates a random password based on the rules passed in the settings parameter
+        /// This does not do any validation
         /// </summary>
         /// <param name="settings">Password generator settings object</param>
         /// <returns>a random password</returns>
@@ -200,7 +200,7 @@ namespace PasswordGenerator
         }
 
         /// <summary>
-        ///  When you give it a password and some _settings, it validates the password against the _settings.
+        /// When you give it a password and some _settings, it validates the password against the _settings.
         /// </summary>
         /// <param name="settings">Password settings</param>
         /// <param name="password">Password to test</param>

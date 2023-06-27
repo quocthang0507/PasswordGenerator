@@ -2,7 +2,7 @@
 
 namespace PasswordGenerator
 {
-    [ObsoleteAttribute("The class 'PasswordGenerator' is obsolete. Use 'Password' instead.")]
+    [Obsolete("The class 'PasswordGenerator' is obsolete. Use 'Password' instead.")]
     public class PasswordGenerator : Password
     {
         public PasswordGenerator()
