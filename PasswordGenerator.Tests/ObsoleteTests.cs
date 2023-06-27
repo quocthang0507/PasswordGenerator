@@ -1,6 +1,5 @@
-﻿using System.Linq;
+﻿using NUnit.Framework;
 using System.Text.RegularExpressions;
-using NUnit.Framework;
 
 
 namespace PasswordGenerator.Tests

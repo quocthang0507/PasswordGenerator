@@ -1,6 +1,6 @@
+using NUnit.Framework;
 using System.Linq;
 using System.Text.RegularExpressions;
-using NUnit.Framework;
 
 namespace PasswordGenerator.Tests
 {
@@ -53,7 +53,7 @@ namespace PasswordGenerator.Tests
             var result = pwd.Next();
             Assert.AreEqual(50, result.Length);
         }
-        
+
         [Test]
         public void PasswordGenerator_10Passwords_ShouldReturn10DifferentPasswords()
         {
@@ -115,7 +115,7 @@ namespace PasswordGenerator.Tests
         {
             var pwd = new Password(passwordLength: 21);
             string result = pwd.Next();
-            Assert.AreEqual(21,result.Length);
+            Assert.AreEqual(21, result.Length);
         }
 
         [Test]
